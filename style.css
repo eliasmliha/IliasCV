@@ -1,0 +1,68 @@
+body{
+    margin:1em 8em;
+    box-sizing: border-box;
+    line-height: 1.8em;
+    background-image: url(img5.gif);
+    background-attachment: fixed;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "imgPorfile formation"
+    "personInfo competences"
+    "personInfo experiences";
+
+}
+
+.imgPorfile{
+    grid-area: imgPorfile;
+    background: #F7F7F7;
+    padding: 25px;
+    text-align: center
+}
+.personInfo{
+    grid-area: personInfo;
+    background: #F7F7F7;
+    padding: 25px;
+    width: inherit;
+}
+.formation{
+    grid-area: formation;
+    background: #DEEBF7;
+    padding: 25px;
+}
+.competences{
+    grid-area: competences;
+    background: #DEEBF7;
+    padding: 25px;
+}
+.experiences{
+    grid-area: experiences;
+    background: #DEEBF7;
+    padding: 25px;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+h3{
+    color: #CB0E0C;
+    margin: 15px auto;
+}
+p{
+    color: #595959;
+    margin: 5px auto;
+}
+h4{
+    color: #262626;
+    margin: 5px auto;
+}
+
+hr{
+    background: #CB0E0C;
+    height: 5px;
+    border: none;
+    margin-bottom: 30px;
+}
